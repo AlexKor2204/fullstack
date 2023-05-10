@@ -1,0 +1,80 @@
+
+body {
+    text-align: center;
+    background-image: url(../media/tile.jpg);
+}
+.header{
+    margin: 10px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Permanent Marker', cursive;
+    color:black;
+}
+.myData {
+    background-image: url(../media/formbg.jpg);
+    width: 40%;
+    position: relative;
+    padding: 15px;
+    margin-left: 30%;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    
+}
+#taskContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.addNote {
+    background-image: url(../media/notebg.png);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+    padding: 20px 20px 10px 10px;
+    float: right;
+    animation: addNote ease 2s;
+    position: relative;
+    overflow-wrap: break-word;
+    overflow-y: auto;
+}
+@keyframes  addNote {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+.theNote{
+    padding: left;
+    height: 200px;
+    display: grid;
+    grid-template-rows: 80% 10% auto;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.glyphicon-remove-circle {
+    position: relative;
+    padding-right: 5px;
+    float: right;
+    display: none;
+}
+.addNote:hover .glyphicon-remove-circle{
+    display: initial;
+}
+#noteName {
+    overflow-wrap: break-word;
+    overflow: auto;
+    overflow-x: hidden;
+    font-size: 20px;
+}
+#noteDate {
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    color:black;
+}
+#taskTime{
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    color:black;
+}

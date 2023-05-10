@@ -1,0 +1,119 @@
+body{
+    width: 100%;
+    /* The image used */
+  background-image: url("../media/bitcoin.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+#headerColor {
+  opacity: 80%;
+}
+
+
+#logo{
+    position:relative;
+    left: 90%;
+    width: 150px;
+}
+h1{
+    position:relative;
+    top: 25%;  
+    color: rgb(0, 134, 0); 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+}
+.menu{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15%;
+    
+}
+.search{
+    position:absolute;
+    margin-top: 15px;
+    margin-left: 59%;
+    justify-content: space-between;
+    display:flex;
+}
+#result{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.Box{
+    position: relative;
+    padding: 20px;
+    height: 200px;
+    width: 33%;
+    text-align: left;
+    border: solid 1px lightgrey;
+    border-radius: 5px;
+    background-color: white;
+    opacity: 90%;
+}
+#info{
+    position: absolute;
+    bottom: 10%;
+}
+#toggleSwitch{
+  position: absolute;
+  display: inline-block;
+  right: 6%;
+  top: 10%;
+  width: 50px;
+  height: 20px;
+}
+#spinner {
+    position:absolute;
+  margin-left: 50%;
+  color: rgb(23, 187, 17);
+}
+.coinLogo{
+  position:relative;
+  width: 50px;
+  bottom: 25px;
+  
+}
+#moreInfoCard{
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  bottom: 53px;
+  width:250px;
+  height: 146px;
+  justify-content: center;
+  border: solid 1px lightgrey;
+}
+.coinInfo{
+  position: absolute;
+  bottom: 5px;
+}
+.aboutBox{
+  position: absolute;
+    padding: 20px;
+    height: 500px;
+    width: 95%;
+    text-align: left;
+    border: solid 1px lightgrey;
+    border-radius: 5px;
+    background-color: white;
+    opacity: 95%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size:larger;
+  z-index: 10;
+}
+.myPhoto{
+  position: absolute;;
+  height: 475px;
+  opacity: 100%;
+  left: 55%;
+}
